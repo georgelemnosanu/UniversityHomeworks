@@ -18,6 +18,7 @@ public class Tema_18_octombrie_2023 {
             return true;
         } else {
             System.out.println("Valoarea este inferioara lui " +"  "+ num);
+
             return false;
         }
     }
