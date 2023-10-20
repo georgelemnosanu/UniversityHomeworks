@@ -14,10 +14,10 @@ public class Tema_18_octombrie_2023 {
     public boolean theBigNumber(int num) {
         int a = introduceNumber();
         if (a >= num) {
-            System.out.println("Valoarea este mai mare decat 7");
+            System.out.println("Valoarea este mai mare decat" +"  "+ num);
             return true;
         } else {
-            System.out.println("Valoarea este inferioara lui 7 ");
+            System.out.println("Valoarea este inferioara lui " +"  "+ num);
             return false;
         }
     }
