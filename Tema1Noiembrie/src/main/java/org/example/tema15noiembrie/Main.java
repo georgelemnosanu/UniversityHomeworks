@@ -1,4 +1,8 @@
-package org.example;
+package org.example.tema15noiembrie;
+
+import org.example.Tema8Noiembrie;
+import org.example.tema15noiembrie.A;
+import org.example.tema15noiembrie.B;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +31,26 @@ public class Main {
 
         obiect4.afiseazaValori();
         obiect4.afiseazaMedia();
+
+
+
+        B b = new B();
+        b.metoda();
+        A obiecta = new A();
+        A obiectb = new A(5, 10.5);
+        A obiectc = new A(3, 7.8);
+
+        obiecta.afisareComponente();
+        obiectb.afisareComponente();
+        obiectc.afisareComponente();
+
+
+        A.setNumarStatic(15);
+
+        System.out.println("Valoarea variabilei statice pentru obiectul 1: " + A.getNumarStatic());
+        System.out.println("Valoarea variabilei statice pentru obiectul 2: " + A.getNumarStatic());
+        System.out.println("Valoarea variabilei statice pentru obiectul 3: " + A.getNumarStatic());
+
     }
     }
 
